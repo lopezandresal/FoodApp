@@ -171,7 +171,7 @@
     <Content Include="images\step-2.jpg" />
     <Content Include="images\step-3.jpg" />
     <Content Include="images\step-4.jpg" />
-    <Content Include="index.aspx" />
+    <Content Include="Index.aspx" />
     <Content Include="js\script.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -220,12 +220,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="index.aspx.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="index.aspx.designer.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
